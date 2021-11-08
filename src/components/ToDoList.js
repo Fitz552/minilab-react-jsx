@@ -7,10 +7,10 @@ const tasks = [
   ];
 
   function List() {
-    return <ul class = "list-group">
+    return <ul className = "list-group">
         {tasks.map (task => {
-            return <label class = "list-group-item"> 
-                <input class="form-check-input me-1" type="checkbox" value=""></input>
+            return <label className = "list-group-item"> 
+                <input className="form-check-input me-1" type="checkbox" value=""></input>
                 {task}
             </label> 
         }
